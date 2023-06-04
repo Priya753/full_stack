@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-   " content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="googleForm.css">
+    <title>GOOGLE FORM</title>
+</head>
+<body>
+<div class="main">
+    <h1 class = "h3" style ="text-align: center;">Quality Thought Form</h1>
+
+<div class = box1>
+    <div class = "inner"></div>
+    <h2>Feedback form</h2>
+    <p class = "required">* Required</p>
+</div>
+<div class = box1>
+<h3>Full Name <span>*</span></h3>
+<input type="text" id = "name" placeholder="Your answer" >
+</div>
+<div class = box1>
+    <h3>EmailAddress <span>*</span></h3>
+   <input type="text" id="email" placeholder = "Your answer">
+</div>
+<div class = box1>
+    <h3>Course <span>*</span></h3>
+    <input type="text"id = "course" placeholder="Your answer">
+</div>
+
+<div class = box2>
+    <h3>Gender<span>*</span></h3>
+    <input type="radio" name="gender" id = "female" >
+    <label for="">female</label>
+    <input type="radio" name="gender" id="male">
+    <label for="">male</label>
+    <input type="radio" name = "gender" id = "other">
+    <label for="">other</label>
+</div>
+<div class = box4>
+    <h3>Comment<span>*</span></h3>
+    <textarea name="" id="area" cols="59" rows="4" style = "margin: 0 10px 1px 10px;"></textarea>
+   
+</div>
+<button type="submit" onclick = "details()" >Submit</button>
+</div>
+<div>
+    <p id = "result" style = "color:black">
+    </p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

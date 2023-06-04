@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta value="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="beautyform.css">
+    <title>Beauty Care Center</title>
+</head>
+<body>
+    <div class = "box">
+       <div class = "head"><h2 >Beauty Care Center - Appointment</h2></div>
+    <table class = "t1">
+        <tr>
+            <th>Name*</th>
+            <td><input type="text" value = " Enter your name"></td>
+        </tr>
+        <tr>
+            <th> Gender*</th>
+            <td><input class = "radio" type="radio" value="Male">
+                <label>Male</label>
+                <input class = "radio" type="radio" value="Female">
+                <label class = "radio">Female</label>
+                <input  class = "radio"type="radio" value="Others">
+                <label>Others</label>
+            </td>
+        </tr>
+        <tr>
+            <th>E-mail address</th>
+            <td><input type="text" value="Example:abc@gmail.com">
+            </td>
+        </tr>
+        <tr>
+            <th>Mobile No*</th>
+            <td><input type="text" value="Enter your mobile no"></td>
+        </tr>
+        <tr>
+            <th>Services*</th>
+            <td><input type="text" value=""></td>
+        </tr>
+        <tr>
+            <th>Date*</th>
+            <td><input placeholder="text"  value ="mm/dd/yyyy"></td>
+        </tr>
+        <tr>
+            <th>Time*</th>
+            <td>
+                <select  class = "time" name="time" value = "" >
+                    <option value="select one">-select one-</option>
+                    <option value="select two">-select two-</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <div>
+            <th>Address</th>
+            <td>
+                <textarea name="address" cols="26" rows="6">Enter your address</textarea></td>
+        </tr>
+    </table>
+    <div class = "address">
+    <input class = "check" type="checkbox" name="agree" >
+    <label class = " label"><u> I agree to terms of services and private policy</u></label> 
+   </div>
+   <br>
+   <div class="btn">
+    <button>Submit</button> 
+   </div>
+    </div>
+</body>
+</html>

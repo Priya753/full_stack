@@ -1,0 +1,83 @@
+body{
+       background-color: rgb(187, 178, 178);
+}
+.main{
+    border:none;
+    margin: 24px auto;
+    background-color: rgb(187, 178, 178); 
+    width:500px;
+
+}
+
+.box1{
+    border-radius:6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin:14px;
+    height: 102px;
+    background-color: white;
+}
+.box2{
+    border-radius:6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin:14px;
+    height: 120px;
+    background-color: white;
+}
+.inner{
+    border:1px solid rgb(136, 0, 255);
+    height: 10px;
+    background-color: rgb(72, 66, 153);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+.required{
+    color:red;
+    font-size:13px;
+    margin: 9px 0 20px 20px;
+}
+h2{
+    margin:  0px 0 4px 15px;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3,h2{
+    margin:  0px 0 9px 15px;
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text],input[type=date]{
+border:none;
+border-bottom: 0.5px solid black;
+margin: 0 20px ;
+width: 250px;
+}
+input[type=radio]{
+    margin: 0 0 0 30px;
+}
+p{
+    color:red;
+}
+
+button{
+    width:75px;
+    height:30px;
+    margin: 0 10px 0 15px ;
+    border:none;
+    border-radius:6px;
+    background-color: rgb(136, 0, 255) ;
+    color:white;
+}
+
+span{
+    color: red;
+}
+
+.box4{
+    border-radius:6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin:14px;
+    height: 132px;
+    background-color: white;
+}

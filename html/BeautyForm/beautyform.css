@@ -1,0 +1,91 @@
+
+body{
+background-color: grey;
+}
+.head{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: rgb(38, 101, 101);
+    margin: 20px; 
+    border-radius: 6px;
+}
+
+.box{
+    margin: 0 350px ;
+    border: 2px solid ;
+    height: 230%;
+    width : 550px;
+    background-color: black;
+}
+
+.t1{
+    margin: 40px 50px 20px 50px;
+}
+th,td{
+    border:1.8px solid rgba(213, 127, 56, 0.923);
+    padding: 8px 20px;
+    text-align: left;
+    color: white;
+    
+    
+}
+input{
+    border:2.5px solid rgba(241, 116, 14, 0.83);
+    border-radius: 6px;
+    background-color: black;
+    color:blue;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.time{
+    width: 220px;
+    background-color: black;
+    color:blue;
+    border: 3px solid rgba(241, 116, 14, 0.83);
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.label{
+    color:skyblue;
+}
+button{
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 6px;
+    padding:20px auto;
+    margin: 0 0 0 20px;
+
+}
+
+textarea{
+    background-color: black;
+    border: 3px solid rgba(241, 116, 14, 0.83);
+    border-radius: 6px;
+    color: blue;
+    text-align: left;
+    margin-right: 20px;
+    
+}
+ .radio{
+    margin: 0 0 0 0 ;
+    width:20px;
+    height:13px;
+ }
+ .check{
+    margin:0 0 0 0;
+    width:20px;
+    text-align: left;
+ }
+
+ .btn{
+    text-align: left;
+ 
+ }
+ .address{
+    text-align: left;
+    margin-left:20px;
+ }

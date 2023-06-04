@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="happyPlaceForm.css">
+    <title>HappyPlace - Rental Property Portal</title>
+</head>
+<body>
+
+    <div class = "container">
+    
+    <h2>HappyPlace - Rental Property Portal</h2>
+    
+    <div>
+        <h3>Property Details</h3>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <select name="house">
+                    <option value="Independent house">Independent House </option>
+                    </select>
+                </td>
+                <td>
+                    <select name="NO">
+                    <option value="5-10">5-10</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <input class = "text"  type="text" value="2000">
+                </td>
+                <td><input class = "text" type="text" value="3"></td>
+            </tr>
+            <tr> 
+                <td colspan="2">
+                    <textarea class = "textarea" name="address" id="" cols="30" rows="10"> No4,Cawley Brown Road,Coimbatore
+                    </textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="on"> Posted on :</label><br>
+                    <input class = "date" type="date" name="date" value="03/01/2021">
+                </td>
+                <td >
+                    <label for="on"> Available from :</label><br>
+                <input  class = "date" type="date" name="date" value="03/01/2021">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rent">Rent :</label>
+                    <input class = "range"  type="range" name="rent"  min = "-10" max = "20" value="17500" >
+                    <label for="rent">17500</label>
+                </td>
+                <td ><label for="Deposit">Deposit :</label>
+                    <input class = "range" type="range" name="Deposit" min= "0"  max="100"  step="1" value="150000" >
+                    <label for="rent">150000</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class = "text" type="text" name=" floorno" value="Enter the floor no*">
+                </td>
+                <td>
+                    <input type="checkbox" name=" facility" value="facility*">
+                    <label for="">Parking facility</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Extra Aminities
+                </td>
+                <td>
+                    <input type="checkbox" name="" >
+                    <label for=""> Lift</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for=""> Maintenance staff</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Park</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Intercom</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Furnishing</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class = "text" type="text" value = "Ram">
+                </td>
+                <td>
+                    <input class = "text" type="text" value = "915993377">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <button><b>POST PROPERTY</b></button>
+    </div>
+</div>
+</body>
+</html>

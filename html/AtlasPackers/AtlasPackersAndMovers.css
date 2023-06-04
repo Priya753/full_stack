@@ -1,0 +1,82 @@
+section{
+ border: none;  
+ width: max-content;
+}
+section:hover{
+    border: 5px solid purple; 
+    width: max-content;
+}
+.box1{
+    width:1000px;
+}
+h2{
+    color:crimson;
+    background:white;
+    border-radius: 6px;
+    margin: 0 0 20px 170px;
+    max-width: fit-content;
+    padding: 0 24px 0 24px;
+
+}
+td,tr{
+    border:1px solid white;
+    border-radius: 6px;
+}
+
+.box2{
+    background-color: rgb(84,142,163);;
+    padding:5px;
+    height:800px;
+    color:white;
+
+}
+img{
+    height:800px;
+}
+.box3{
+    border:3px solid white;
+    background-color:rgb(84,142,163);
+    border-radius:6px;
+    padding:3px;
+    height:700px;
+    width: 750px;
+    color:white;
+}
+.list{
+    height: 67px;
+}
+
+
+#date{
+    width: 350px; 
+}
+a{
+    color: white;
+}
+
+select{
+    width: 160px; 
+}
+
+#distance{
+    width:85%;
+}
+#reloc,#personal,#quote{
+    color:crimson;
+}
+
+#cname, #phno,#email{
+    width:97%;
+}
+
+#submit{
+    border:1px outset black;
+    margin-top:28px;
+    border-radius:4px;
+    color:crimson;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.size{
+    height: 9px;
+}
