@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ACMaintenance.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class = "box1">
+             <h1>
+                <i> AC Maintenance Service</i>
+               </h1>
+            <table>
+                <tr>
+                    <td>Customer Name</td>
+                    <td>
+                        <input type="text" name="cust_name" id="cust_name" placeholder = "Enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td>
+                        <input type="text" name="mobile" id="mobile" placeholder = "Enter your mobile number">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Address</td>
+                    <td>
+                        <textarea name="" id="address"placeholder = "Enter your address" cols="22" rows="5" >
+                           
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td> AC Type</td>
+                    <td>
+                        <select name="actype" id="actype">
+                            <option value="">Window</option>
+                            <option value="">Split</option>
+                           
+                            
+                        </select>
+        
+                    </td>
+                </tr>
+                <tr>
+                    <td> Service Type</td>
+                    <td style ="padding-top:6px;">
+                       
+                        <input type="checkbox" name="service" id="cleaning">
+                        <label for="">   Cleaning</label><br>
+                        <input type="checkbox" name="" id="gas">
+                        <label for="">Gas Refill</label><br>
+                        <input type="checkbox" name="" id="filter">
+                        <label for="">Filter</label><br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="" id="repair">
+                        <label for="">    Repair</label>
+                        <input type="checkbox" name="" id="relocation">
+                        <label for="">     Relocation</label>
+                     
+                    </td>
+                </tr>
+                <tr><td>Date for Appointment</td>
+                    <td>
+                        <input type="date" name="appoinment" id="appointment">
+                    </td></tr>
+                <tr><td>Yearly Maintenance</td>
+                    <td>
+                        <input  type="checkbox" name="maintenance" id="maintenance">
+                        <label for=""> Select if required</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td colspan="2">
+                        <div id = "btn">
+                            <button type = "submit" class = "btn1" id = "btn" onclick="bookAppointment()">Submit</button>
+                            <button type = "reset" class = "btn2">Clear</button>
+                           </div>
+                    </td>
+                </tr>
+
+            </table>
+           <p id = "result" style = "color:  rgb(144,0,67);font-weight:bold;"></p>
+            <!-- <p>
+               <b> Your booking for Window AC service is succesful!</b>
+            </p>
+        <p>
+            <b>The estimated service cost is Rs.3188</b>
+        </p> -->
+        </div>
+        
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <style>
+            
+        #veg,#nonveg,.veg,.nonveg{
+            border:1px solid rgba(229, 221, 221, 0.863);
+            border-collapse: collapse;
+            background-color:rgb(244,164,96);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:13px;
+            padding:5px;
+            margin-bottom: 5px;
+
+        }
+
+        h1{
+            background-color: rgb(255,99,71);
+            color:white;
+            font-family:sans-serif;
+            text-align: center;
+            
+        }
+        form{
+            background-color: rgb(147,112,219);
+            font-family:sans-serif;
+            font-size:13px;
+            width:800px;
+            height:440px;
+            padding-top: 2px;
+        }
+      
+        .inp{
+            width:30px;
+            height:10px;
+        }
+        
+        #occasions{
+            width:130px;
+            height:12px;
+            border:none;
+           
+        }
+        button{
+            background-color: rgb(255,222,173);
+            width:140px;
+            height: 27px;
+            font-size: 10px;
+            border: 2px outset black;
+        }
+        .container{
+            width:700px;
+        }
+        #parking{
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+    <h1><i> Delicious Buffet Restaurant</i></h1>
+<table class = "container">   
+    <!--Customer Name-->
+    <tr>
+        <td>
+            <b> Customer Name</b>
+        </td>
+        <td>
+            <input  style = "font-size: 12px;" type="text" name="customerName" id="customerName"  value = "" placeholder=" Enter your name">
+        </td>
+    </tr>
+    <!---Contact No-->
+    <tr>
+        <td>
+            <b>Contact No</b>
+        </td>
+        <td>
+            <input style = "font-size: 12px;margin-top: 5px; " type="tel" name="contactNo" id="contactNo" placeholder=" Enter your mobile number">
+        </td>
+    </tr>
+    <!-- Date-->
+    <tr>
+        <td >
+            <b>Date</b>
+            </td>
+        <td>
+            <input  style = "font-size: 12px;width:120px;  margin-top: 5px;" type="date" name="bookingDate" id="bookingDate">
+        </td>
+    </tr>
+    <!---Timings-->
+    <tr>
+        <td>
+            <b>Timings</b>
+        </td>
+        <td style = "padding:4px">
+            <input type="radio" name="session1" id="session1">
+            <label for="">1-4pm</label>
+            <input type="radio" name="session2" id="session2">
+            <label for="">4-7pm</label>
+            <input type="radio" name="session3" id="session3">
+            <label for="">7-10pm</label>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="veg"><b>Vegetarian</b></label>
+        </td>
+        <td>
+            <table id="veg">
+                <tr>
+                    <td class = "veg"><label for="vegAdult"><b>Adult</b></label></td>
+                    <td class = "veg" >
+                        <input  class = " inp" type="number"  name="vegAdult" id="vegAdult" value ="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class = "veg"  ><label for="vegKids"><b>Kids(5-9 yrs)</b></label></td>
+                    <td class = "veg">
+                        <input class = " inp" type="number" name="vegKids" id="vegKids" value="">
+                    </td>
+                </tr>
+                
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td> <label for="NonVeg"><b>Non-Vegetarian</b></label></td>
+        <td>
+            <table id="nonveg">
+                <tr>
+                    <td class = "nonveg"><label for="nonVegAdult"><b>Adult</b></label></td>
+                    <td class = "nonveg">
+                        <input class = " inp" type="number" name="nonVegAdult" id="nonvegAdult" value = "">
+                    </td>
+                </tr>
+                <tr>
+                    <td class = "nonveg"><label for="nonVegKid"><b>Kids(5-9 yrs)</b></label></td>
+                    <td class = "nonveg">
+                        <input  class = " inp" type="number" name="nonVegKid" id="nonvegKids" value = "">
+                    </td>
+                </tr>
+                
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="occasion"><b>Occasion</b></label>
+        </td>
+        <td>
+            <input list="occasion" name="occasion" id="occasions">
+            <datalist id ="occasion">
+                <option value="Team dinner">
+                <option value="Family reunion">
+                <option value="Party">
+                <option value="Birthday celebration">
+                <option value="Team lunch">
+            </datalist>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="parking"><b>Parking</b></label>
+        </td>
+        <td>
+            <input type="checkbox" name="parking" id="parking">
+            <label for="park">Parking Required</label>
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            <button onclick="billCalculation()" type="submit" id=" submit"><b>Submit</b></button>
+
+        </td>
+        <td>
+            <button type="reset" id="reset"><b>Clear</b></button>
+        </td>
+    </tr>
+</table>
+<p id="answer" style="font-weight:bold; color:rgb(133,30,59); font-size: 16px;"></p>
+
+</form>
+<script src="bill.js">
+</script>
+</body>
+</html>
+           

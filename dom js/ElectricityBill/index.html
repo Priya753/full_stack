@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Electricity Bill</title>
+
+</head>
+<body>
+    <form action="" method="get">
+        <h2>Electricity Bill</h2>
+        <table>
+            <tr>
+                <td class = "box">
+                    <label for="rr_no">Enter RR number</label>
+                </td>
+                <td>
+                    <input type="text" name="rr_no" id="rr_no" placeholder = "Enter your RR Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cons_name">Consumer Name</label>
+                </td>
+                <td>
+                    <input type="text" name="cons_name" id="cons_name" placeholder = "Enter Consumer name">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="20" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Bill Reading Date</label>
+                </td>
+                <td>
+                    <input type="date" name="date" id="date" placeholder = "dd/mm/yyyy">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="old">Enter Old Meter Reading</label>
+                </td>
+                <td>
+                    <input type="number" name="old" id="old" placeholder = "Enter Old Reading">
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="current">Enter Current Meter Reading</label>
+                </td>
+                <td>
+                    <input type="number" name="current" id="current" placeholder = "Enter Current Reading">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="arrears">Enter Arrears if any.</label>
+                </td>
+                <td>
+                    <input type="number" name="arrears" id="arrears" value = "0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="reset" id = "reset" onclick = "clear()">Clear</button>
+                </td>
+                <td >
+                    <button type="submit" id="submit" onclick = "res()">Submit</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p id = "result" 
+                    class = "res"></p>
+
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+    <script src = "scripts.js"></script>
+</body>
+</html>

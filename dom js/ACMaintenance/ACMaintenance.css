@@ -1,0 +1,46 @@
+.box1{
+    border:2px solid rgb(36, 165, 200);
+    margin: 50px;
+    background-color: rgb(45, 156, 187); 
+    padding-left:26px;
+    font-family: Arial, Helvetica, sans-serif;
+   width:800px;
+}
+table{
+    width:550px;
+    padding:20px;
+}
+td:first-child{
+  width:40px;  
+}
+
+h1{
+ text-align: right;
+ padding-right:  20px;
+ color:white;
+ background-color: rgb(144,0,67);
+ font-family:  sans-serif;
+}
+input[type = checkbox]{
+    margin: 0 50px 0 50px;
+}
+
+input[type=text],input[type = date],select{
+    width:179.7px;
+}
+#maintenance{
+margin:0;
+}
+
+.btn1,.btn2{
+    
+    border:1px solid outset black;
+    border-radius:6px;
+    background-color: rgb(85,107,47);
+    padding:10px 40px 10px 40px ;
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    font-weight: bold;
+
+    
+}
